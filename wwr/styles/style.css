@@ -1,0 +1,30 @@
+.content{
+    max-width: 1600px;
+}
+
+footer{
+    background-color: grey;
+    font-size: 1.2em;
+}
+
+.icon {
+    max-width: 80px;
+}
+
+header{
+    background-color: gray;
+}
+
+.logo{ 
+    margin: 0 auto;
+    max-width: 80px;
+}
+
+.home-grid{
+    text-align: center;
+}
+
+#above{
+    text-align: center;
+}
+
