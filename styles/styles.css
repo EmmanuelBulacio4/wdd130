@@ -1,5 +1,4 @@
-nav
-{
+nav{
 background-color
 : steelblue;
 padding: 10px;
@@ -23,10 +22,6 @@ main img {
     box-shadow: 0 0 30px grey;
 }
 
-p {
-    padding: 0px
-}
-
 main {
     max-width:840px;
 }
@@ -44,6 +39,10 @@ aside {
 aside img{
     width: 200px;
     height: auto;
+}
+
+p {
+    padding: 0px;
 }
 
 footer {
