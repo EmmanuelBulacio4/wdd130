@@ -1,19 +1,13 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
 
-body{
-    font-family: var(--paragraph-font Madimi);
-    max-width: 960px;
-    padding: 20px;
-}
-
 :root{
     --primary-color: #49bae6;
     --secundary-color: #48ae75;
     --accent1-color: #d6ffff;
     --accent2-color: #c1cc79;
 
-    --heading-font: Madimi, serif;
+    --heading-font: 'Madimi One', serif;
     --paragraph-font: Verdana, serif;
 
     --nav-background-color: #ffffff;
@@ -26,6 +20,42 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding:20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--accent2-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a{
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-link-color);
+    background-color: var(--nav-hover-background-color);
 }
 
 
