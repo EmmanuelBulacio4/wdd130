@@ -1,0 +1,50 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+
+body{
+    font-family: var(--paragraph-font Madimi);
+    max-width: 960px;
+    padding: 20px;
+}
+
+:root{
+    --primary-color: #49bae6;
+    --secundary-color: #48ae75;
+    --accent1-color: #d6ffff;
+    --accent2-color: #c1cc79;
+
+    --heading-font: Madimi, serif;
+    --paragraph-font: Verdana, serif;
+
+    --nav-background-color: #ffffff;
+    --nav-link-color: #2b2bd4;
+    --nav-hover-background-color: #5ad3e9;
+
+}
+
+body{
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

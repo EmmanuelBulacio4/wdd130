@@ -1,0 +1,27 @@
+header{
+    background-color: coral;
+    display: block;
+}
+
+img {
+    left: 0;
+    display: inline;
+    padding: 5px;
+}
+
+nav {
+    display: inline;
+    position: absolute;
+    padding: 25px;
+}
+
+a{
+    border: 1px;
+    border-radius: 3px;
+    padding-right: 45px;
+    text-align: justify;
+}
+
+a:hover{
+    color: white;
+}
