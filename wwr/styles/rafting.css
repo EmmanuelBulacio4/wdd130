@@ -74,7 +74,7 @@ p {
 .hero{
     box-sizing: border-box;
     position: relative;
-    width: 100%;
+    width: 960px;
     float: left;
 }
 
