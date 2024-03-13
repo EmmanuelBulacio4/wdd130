@@ -75,7 +75,7 @@ p {
     box-sizing: border-box;
     position: relative;
     width: 960px;
-    float: left;
+    float: right;
 }
 
 h1{
@@ -93,6 +93,7 @@ article img{
     top: 100px;
     right: 25px;
     width: 25%;
+    float: right;
 }
 
 article p{
@@ -122,6 +123,7 @@ article p{
 
 footer{
     background-color: var(--accent2-color);
+    text-decoration: none;
 }
 
 footer img{
