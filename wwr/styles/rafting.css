@@ -5,7 +5,7 @@
     --primary-color: #49bae6;
     --secondary-color: #48ae75;
     --accent1-color: #3acfcf;
-    --accent2-color: #c1cc79;
+    --accent2-color: #19bd99d7;
 
     --heading-font: 'Madimi One', serif;
     --paragraph-font: Verdana, serif;
@@ -19,7 +19,7 @@
 body{
     font-family: var(--paragraph-font);
     max-width: 960px;
-    padding:20px;
+    padding:5px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,15 +27,44 @@ h1, h2, h3, h4, h5, h6 {
     color: var(--primary-color);
 }
 
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 28px;
+}
+
 header {
     background-color: var(--accent2-color);
-    
+}
+
+#logo{
+    width: 90px;
+    height: 90px;
 }
 
 p {
     padding: 25px;
+    font-size: 18px;
+    color:#2b2bd4
 }
 
+.hero{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 100%;
+
+#history{
+    box-sizing: border-box;
+    margin: 1px solid black;
+    place-items: center;
+    
+}
+
+
+
+/*
 nav {
     background-color: var(--nav-background-color);
     font-size: 1.2rem;
@@ -56,9 +85,5 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
-}
+} */
 
-nav img{
-    width: 40px;
-    border-radius: 10px;
-}
