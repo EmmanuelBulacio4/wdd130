@@ -43,6 +43,8 @@ nav {
     background-color: var(--nav-background-color);
     font-size: 1.5rem;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 nav a{
@@ -124,8 +126,9 @@ article p{
 footer{
     background-color: var(--accent2-color);
     text-decoration: none;
+    display: flex;
 }
 
 footer img{
-    width: 70px;
+    width: 55px;
 }
