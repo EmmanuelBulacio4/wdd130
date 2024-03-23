@@ -24,10 +24,14 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding:5px;
-    background-color: grey;
+    background: linear-gradient(gray, black);
 }
 
 /* -----------HEADINGS AND PARAGRAPH----------*/
+
+header{
+    display: grid;
+}
 
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
@@ -36,7 +40,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h2{
-    font-size: 28px;
+    font-size: 30px;
 }
 
 nav {
@@ -45,6 +49,8 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
+    font-weight: 700;
 }
 
 nav a{
@@ -61,6 +67,7 @@ nav a:link, nav a:visited {
 nav a:hover {
     color: var(--nav-hover-link-color);
     background-color: var(--nav-hover-background-color);
+    border-radius: 10px;
 }
 
 #logo{
@@ -74,10 +81,13 @@ p {
 }
 /* ----------- HERO CONTAINER----------*/
 .hero{
-    box-sizing: border-box;
     position: relative;
-    width: 960px;
     float: right;
+    padding-bottom: 50px;
+}
+
+div img{
+    width: 960px;
 }
 
 h1{
@@ -90,6 +100,7 @@ h1{
 div p{
     color: var(--nav-hover-link-color);
 }
+
 article img{
     position: absolute;
     top: 100px;
@@ -102,10 +113,9 @@ article p{
     position: absolute;
     box-sizing: border-box;
     width: 75%;
-    top: 80px;
+    top: 65px;
     float: left;
 }
-
 
 /* ----------- HISTORY----------*/
 
@@ -113,12 +123,17 @@ article p{
     box-sizing: border-box;
     place-items: center; 
     text-align: left;
+    padding-bottom: 20px;
+
 }
 /* ----------- ADVENTURES AWAITS YOU----------*/
-#adventures img{
+.container{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
     align-items: center;
-    width: 235px;
-    
+    justify-content: space-between;
+    column-gap: 15px;
+
 }
 
 /* ----------- FOOTER----------*/
@@ -126,9 +141,19 @@ article p{
 footer{
     background-color: var(--accent2-color);
     text-decoration: none;
-    display: flex;
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 60% 40%;
 }
 
 footer img{
-    width: 55px;
+    width: 50px;
+}
+
+.sociallinks{
+    background-color: var(--accent2-color);
+    font-size: 1.5rem;
+    display: flex;
+    float: left;
+    justify-content: flex-end;
 }
