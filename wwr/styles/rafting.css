@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2{
     font-size: 30px;
-    
+
 }
 
 nav {
@@ -121,9 +121,16 @@ article p{
 /* ----------- HISTORY----------*/
 
 #history{
-    place-items: center; 
-    text-align: center;
+    background-color: white;
+}
 
+.caja{
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+}
+
+#history img{
+    width: 150px;
 }
 /* ----------- ADVENTURES AWAITS YOU----------*/
 .container{
