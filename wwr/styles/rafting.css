@@ -24,7 +24,7 @@ body{
     font-family: var(--paragraph-font);
     max-width: 960px;
     padding:5px;
-    background: linear-gradient(gray, black);
+    background: linear-gradient(gray, blue);
 }
 
 /* -----------HEADINGS AND PARAGRAPH----------*/
@@ -41,6 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h2{
     font-size: 30px;
+    
 }
 
 nav {
