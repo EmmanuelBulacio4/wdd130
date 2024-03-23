@@ -120,19 +120,19 @@ article p{
 /* ----------- HISTORY----------*/
 
 #history{
-    box-sizing: border-box;
     place-items: center; 
-    text-align: left;
-    padding-bottom: 20px;
+    text-align: center;
 
 }
 /* ----------- ADVENTURES AWAITS YOU----------*/
 .container{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-    align-items: center;
+    display:flex;
     justify-content: space-between;
-    column-gap: 15px;
+    max-width: 960px;
+}
+
+.container img{
+    width: 250px;    
 }
 
 figcaption{
