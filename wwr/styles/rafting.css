@@ -29,7 +29,9 @@ body{
 /* -----------HEADINGS AND PARAGRAPH----------*/
 
 header{
+    background-color: var(--secondary-color);
     display: grid;
+    justify-content: space-evenly;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -157,7 +159,7 @@ figcaption{
 /* ----------- FOOTER----------*/
 
 footer{
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     text-decoration: none;
     max-width: 960px;
     display: grid;
