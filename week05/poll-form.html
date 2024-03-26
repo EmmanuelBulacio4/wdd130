@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WDD 130 | Emmanuel Bulacio | HTML Form - User Poll</title>
+</head>
+<body>
+    <header>
+        <h1>WDD 130 | Emmanuel Bulacio | HTML Form - User Poll</h1>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend>Contact Information</legend>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname"><br>
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email">
+            </fieldset>
+            <fieldset>
+                <legend>Questions</legend>
+                <label for="browser">What is your favorite browser? </label>
+                <select id="browser" name="browser">
+                    <option value="chrome">Chrome</option>
+                    <option value="safari">Safari</option>
+                    <option value="firefox">FireFox</option>
+                    <option value="internet">Internet Explorer</option>
+                    <option value="other">Other</option>
+                </select><br>
+                <label for="pet">Do you have a household pet?</label>
+                <input type="checkbox" id="pet" name="pet"><br>
+                <label for="feedback">List the places you have lived:</label>
+                <textarea id="feedback" name="feedback" rows="4" placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+            </fieldset>
+            <button type="submit">Submit Poll</button>
+        </form>
+    </main>
+    <footer>
+        <p>&copy;2024 | HTML Form - User Poll Activity | Emmanuel Bulacio</p>
+    </footer>
+</body>
+</html>
