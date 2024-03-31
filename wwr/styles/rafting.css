@@ -185,8 +185,6 @@ footer img{
 }
 
 /*---Contact Us Page---*/
-
-
 .employees{
     background-color: #369663d7;
     display: flex;
@@ -207,6 +205,10 @@ footer img{
     background-color: #3ca3ab;
 }
 
+iframe{
+    width: 300px;
+    height: 300px;
+}
 
 form{
     max-width: 750px;
