@@ -185,3 +185,46 @@ footer img{
 }
 
 /*---Contact Us Page---*/
+.employees{
+    background-color: #369663d7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+
+.employees img{
+    width: 250px;
+}
+
+.info{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 100px);
+    background-color: #3acfcf;
+}
+.info img{
+    width: 70px;
+}
+
+form{
+    max-width: 750px;
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+label{
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+button{
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 150px;
+    height: 45px;
+    margin-top: 25px;
+    font-weight: 600;
+    background-color: rgb(59, 124, 230);
+}
