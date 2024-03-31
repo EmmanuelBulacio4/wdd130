@@ -37,7 +37,21 @@
             </figure>
         </section>
         <form>
-            <!--Aqui va el formulario-->
+            <label for="name">Enter your name</label>
+            <input type="text" id="name" name="username"><br>
+            <label for="email">Enter your e-mail</label>
+            <input type="text" id="email" name="email"><br>
+            <label>Select the purpose of the message</label><br>
+            <input type="radio" id="inquiry" name="purpose" value="inquiry">
+            <label for="inquiry">General Inquiry</label><br>
+            <input type="radio" id="reservation" name="purpose" value="reservation">
+            <label for="reservation">Reservation Question</label><br>
+            <input type="radio" id="suggestion" name="purpose" value="suggestion">
+            <label for="suggestion">Website Suggestion</label><br>
+            <textarea name="text" id="purpose" cols="10" rows="4"></textarea><br>
+            <label for="checkbox">Please subscribe me to monthly newslatter</label>
+            <input type="checkbox" id="checkbox" name="subscribe"><br>
+            <input type="submit" value="Submit">
         </form>
     </main>
     <footer>
