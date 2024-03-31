@@ -199,13 +199,12 @@ footer img{
 
 .info{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(3, 100px);
-    background-color: #3acfcf;
+    padding: 25px;
+    background-color: #3ca3ab;
 }
-.info img{
-    width: 70px;
-}
+
 
 form{
     max-width: 750px;
@@ -220,11 +219,11 @@ label{
 }
 
 button{
-    display: grid;
-    grid-template-columns: 1fr;
-    width: 150px;
-    height: 45px;
-    margin-top: 25px;
-    font-weight: 600;
-    background-color: rgb(59, 124, 230);
+    width: 50%;
+    height: 55px;
+    font-size: 40px;
+    font-family: var(--heading-font);
+    margin-bottom: 15px;
+    font-weight: 700;
+    background-color: rgb(72, 202, 155);
 }
