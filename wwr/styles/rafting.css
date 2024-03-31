@@ -185,6 +185,10 @@ footer img{
 }
 
 /*---Contact Us Page---*/
+#h1-cu{
+    position: relative;
+}
+
 .employees{
     background-color: #369663d7;
     display: flex;
@@ -200,14 +204,14 @@ footer img{
 .info{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: repeat(3, 100px);
+    grid-template-rows: repeat(4, 100px);
     padding: 25px;
     background-color: #3ca3ab;
 }
 
 iframe{
-    width: 300px;
-    height: 300px;
+    width: 450px;
+    height: 400px;
 }
 
 form{
