@@ -246,3 +246,39 @@ button{
     font-weight: 700;
     background-color: rgb(72, 202, 155);
 }
+/* ----- Trips Page ----- */
+
+.first-trips{
+    background-color: rgb(58, 2, 17);
+    padding: 20px;
+    text-align: center;
+}
+
+.trip-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+table img{
+    width: 100%;
+}
+section img{
+    width: 50%;
+}
+
+/*Book Now Button*/
+.book-btn {
+    background-color: #180f5a;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    border: 1px solid black;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.book-btn:hover {
+    background-color: #212a6f;
+}
