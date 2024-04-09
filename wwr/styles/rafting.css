@@ -184,6 +184,11 @@ footer img{
     justify-content: flex-end;
 }
 
+footer a{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 /*---Contact Us Page---*/
 #h1-cu{
     position: relative;
