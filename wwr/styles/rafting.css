@@ -190,11 +190,12 @@ footer img{
 }
 
 .employees{
-    background-color: #369663d7;
+    background-color: #18653cd7;
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 30px;
+    color: black;
 }
 
 .employees img{
@@ -206,7 +207,7 @@ footer img{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: repeat(4, 100px);
     padding: 25px;
-    background-color: #3ca3ab;
+    background-color: #21696e;
 }
 
 #h1-cu{
@@ -219,6 +220,7 @@ iframe{
 }
 
 form{
+    background-color: antiquewhite;
     max-width: 750px;
     margin: 0 auto;
     padding-top: 25px;
