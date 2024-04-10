@@ -300,3 +300,57 @@ section img{
 .book-btn:hover {
     background-color: #212a6f;
 }
+
+/* --- Home Page CSS --- */
+
+#home-page-main{
+    background-color: antiquewhite;
+}
+
+#home-images p{
+    color: black;
+}
+
+button{
+    width: 65%;
+    height: 50px;
+    font-weight: 300;
+    background-color: rgb(59, 124, 230);
+    margin: 10px;
+}
+
+button:hover{
+    background-color:  rgb(15, 83, 193);
+}
+
+#form-section{
+    display: grid;
+    grid-template-columns: 460px 460px;
+    padding: 5px;
+}
+
+#home-form{
+    background-color: antiquewhite;
+    width: 450px;
+}
+
+label, input{
+    margin: 7px;
+}
+
+#home-images{
+    display: grid;
+    grid-template-columns: 480px 480px;
+    grid-template-rows: 250px 250px;
+}
+
+#home-images img{
+    width: 90%;
+    height: 90%;
+    padding: 15px;
+}
+
+#home-images p{
+    padding: 10px;
+    justify-content: center;
+}
